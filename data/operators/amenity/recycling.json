@@ -531,6 +531,28 @@
       }
     },
     {
+      "displayName": "Apparel Impact",
+      "id": "apparelimpact-60bb23",
+      "locationSet": {
+        "include": [
+          "us-ct.geojson",
+          "us-ma.geojson",
+          "us-me.geojson",
+          "us-nh.geojson",
+          "us-ny.geojson",
+          "us-vt.geojson"
+        ]
+      },
+      "tags": {
+        "amenity": "recycling",
+        "operator": "Apparel Impact",
+        "operator:wikidata": "Q139497922",
+        "recycling_type": "container",
+        "recycling:clothes": "yes",
+        "recycling:shoes": "yes"
+      }
+    },
+    {
       "displayName": "APR GmbH",
       "id": "aprgmbh-dfb6ae",
       "locationSet": {
@@ -2991,6 +3013,7 @@
       "tags": {
         "amenity": "recycling",
         "operator": "Gemeente Utrecht",
+        "operator:type": "government",
         "operator:wikidata": "Q803"
       }
     },
@@ -7353,7 +7376,7 @@
       "tags": {
         "amenity": "recycling",
         "operator": "Roteb",
-        "operator:wikidata": "Q133810292"
+        "operator:wikidata": "Q2300888"
       }
     },
     {
@@ -7923,16 +7946,9 @@
     },
     {
       "displayName": "SOEX",
-      "id": "soex-a3d9bb",
+      "id": "soex-3d46b2",
       "locationSet": {
-        "include": [
-          "ae",
-          "de",
-          "es",
-          "fx",
-          "gb",
-          "ru"
-        ]
+        "include": ["ae", "de", "es", "fx", "gb"]
       },
       "tags": {
         "amenity": "recycling",
@@ -8847,8 +8863,8 @@
     },
     {
       "displayName": "TexCycle",
-      "id": "texcycle-f11175",
-      "locationSet": {"include": ["bg"]},
+      "id": "texcycle-febe44",
+      "locationSet": {"include": ["bg", "ro"]},
       "tags": {
         "amenity": "recycling",
         "operator": "TexCycle",
@@ -9387,6 +9403,17 @@
         "amenity": "recycling",
         "operator": "Volkssolidarität",
         "operator:wikidata": "Q2532186"
+      }
+    },
+    {
+      "displayName": "Volta",
+      "id": "volta-416028",
+      "locationSet": {"include": ["pt"]},
+      "tags": {
+        "amenity": "recycling",
+        "operator": "Volta",
+        "operator:wikidata": "Q138952882",
+        "recycling_type": "reverse_vending_machine"
       }
     },
     {

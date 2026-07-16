@@ -406,14 +406,24 @@
     },
     {
       "displayName": "electrip",
-      "id": "electrip-2e2ce9",
+      "id": "electrip-7d70e9",
       "locationSet": {
-        "include": ["bg", "gr", "hr", "it", "tr"]
+        "include": ["gr", "hr", "it", "tr"]
       },
       "tags": {
         "amenity": "charging_station",
         "brand": "electrip",
         "brand:wikidata": "Q133980622"
+      }
+    },
+    {
+      "displayName": "electrip (Bulgaria)",
+      "id": "electrip-59a92d",
+      "locationSet": {"include": ["bg"]},
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "electrip",
+        "brand:wikidata": "Q139373328"
       }
     },
     {
@@ -458,6 +468,21 @@
         "amenity": "charging_station",
         "brand": "eMotion",
         "brand:wikidata": "Q139071415"
+      }
+    },
+    {
+      "displayName": "Endolla Barcelona",
+      "id": "endollabarcelona-000947",
+      "locationSet": {
+        "include": ["es-b.geojson"]
+      },
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "Endolla Barcelona",
+        "brand:wikidata": "Q129811747",
+        "operator": "Barcelona de Serveis Municipals",
+        "operator:short": "BSM",
+        "operator:wikidata": "Q11908177"
       }
     },
     {
@@ -604,9 +629,7 @@
       "tags": {
         "amenity": "charging_station",
         "brand": "evmapa",
-        "brand:wikidata": "Q136929506",
-        "network": "evmapa",
-        "network:wikidata": "Q136929506"
+        "brand:wikidata": "Q136929506"
       }
     },
     {
@@ -1017,9 +1040,7 @@
       "tags": {
         "amenity": "charging_station",
         "brand": "NabiBajk",
-        "brand:wikidata": "Q131407297",
-        "network": "Powerbox.one",
-        "network:wikidata": "Q131535492"
+        "brand:wikidata": "Q131407297"
       }
     },
     {
@@ -1119,9 +1140,7 @@
       "tags": {
         "amenity": "charging_station",
         "brand": "OpenLoop",
-        "brand:wikidata": "Q113289213",
-        "network": "OpenLoop",
-        "network:wikidata": "Q113289213"
+        "brand:wikidata": "Q113289213"
       }
     },
     {
@@ -1191,9 +1210,7 @@
       "tags": {
         "amenity": "charging_station",
         "brand": "Powerbox.one",
-        "brand:wikidata": "Q131535492",
-        "network": "Powerbox.one",
-        "network:wikidata": "Q131535492"
+        "brand:wikidata": "Q131535492"
       }
     },
     {
@@ -1507,6 +1524,17 @@
       }
     },
     {
+      "displayName": "Walmart Energy",
+      "id": "walmartenergy-5598dd",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "Walmart Energy",
+        "brand:wikidata": "Q140482254",
+        "name": "Walmart Energy"
+      }
+    },
+    {
       "displayName": "We Drive Solar",
       "id": "wedrivesolar-2a8f9b",
       "locationSet": {"include": ["nl"]},
@@ -1595,11 +1623,7 @@
         "brand": "Энергия Москвы",
         "brand:en": "Energy of Moscow",
         "brand:ru": "Энергия Москвы",
-        "brand:wikidata": "Q125346046",
-        "network": "Энергия Москвы",
-        "network:en": "Energy of Moscow",
-        "network:ru": "Энергия Москвы",
-        "network:wikidata": "Q125346046"
+        "brand:wikidata": "Q125346046"
       }
     },
     {
@@ -1743,6 +1767,24 @@
         "name": "特来电",
         "name:en": "Teld",
         "name:zh": "特来电"
+      }
+    },
+    {
+      "displayName": "理想超级充电站",
+      "id": "liautosupercharger-a352c2",
+      "locationSet": {
+        "include": ["cn"],
+        "exclude": ["hk", "mo"]
+      },
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "理想",
+        "brand:en": "Li Auto",
+        "brand:wikidata": "Q98139925",
+        "brand:zh": "理想",
+        "name": "理想超级充电站",
+        "name:en": "Li Auto Supercharger",
+        "name:zh": "理想超级充电站"
       }
     },
     {

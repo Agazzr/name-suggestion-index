@@ -1032,16 +1032,17 @@
       }
     },
     {
-      "displayName": "Kieser Training",
-      "id": "kiesertraining-a70e35",
+      "displayName": "Kieser",
+      "id": "kieser-a70e35",
       "locationSet": {
         "include": ["at", "au", "ch", "de", "lu"]
       },
+      "matchNames": ["kieser training"],
       "tags": {
-        "brand": "Kieser Training",
+        "brand": "Kieser",
         "brand:wikidata": "Q1112367",
         "leisure": "fitness_centre",
-        "name": "Kieser Training"
+        "name": "Kieser"
       }
     },
     {
@@ -1419,6 +1420,17 @@
       }
     },
     {
+      "displayName": "Rumble",
+      "id": "rumble-809afb",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "brand": "Rumble",
+        "brand:wikidata": "Q129899313",
+        "leisure": "fitness_centre",
+        "name": "Rumble"
+      }
+    },
+    {
       "displayName": "Sats",
       "id": "sats-44c5d4",
       "issues": [5500],
@@ -1678,6 +1690,18 @@
         "brand:wikidata": "Q48815022",
         "leisure": "fitness_centre",
         "name": "The Gym Group"
+      }
+    },
+    {
+      "displayName": "The Picklr",
+      "id": "thepicklr-809afb",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "brand": "The Picklr",
+        "brand:wikidata": "Q140393337",
+        "leisure": "fitness_centre",
+        "name": "The Picklr",
+        "sport": "pickleball"
       }
     },
     {

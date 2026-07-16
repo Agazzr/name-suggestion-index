@@ -94,8 +94,7 @@
         "brand": "BigMat",
         "brand:wikidata": "Q101851862",
         "name": "BigMat",
-        "shop": "trade",
-        "trade": "building_supplies"
+        "shop": "trade"
       }
     },
     {
@@ -311,12 +310,12 @@
       "id": "dek-8ec304",
       "locationSet": {"include": ["cz", "sk"]},
       "matchNames": ["dek stavebniny"],
+      "preserveTags": ["^name"],
       "tags": {
         "brand": "DEK",
         "brand:wikidata": "Q58205825",
         "name": "DEK",
-        "shop": "trade",
-        "trade": "building_supplies"
+        "shop": "trade"
       }
     },
     {
@@ -969,9 +968,30 @@
       }
     },
     {
+      "displayName": "Pro-Doma",
+      "id": "prodoma-0d3493",
+      "locationSet": {"include": ["cz"]},
+      "matchNames": ["pro-doma stavebniny"],
+      "preserveTags": ["^name"],
+      "tags": {
+        "brand": "Pro-Doma",
+        "brand:wikidata": "Q58218819",
+        "name": "Pro-Doma",
+        "shop": "trade"
+      }
+    },
+    {
       "displayName": "Ptáček",
       "id": "ptacek-8ec304",
       "locationSet": {"include": ["cz", "sk"]},
+      "matchNames": [
+        "instalatercentrum ptacek",
+        "instalaterske centrum ptacek",
+        "ptacek - kurenie, voda, plyn",
+        "ptacek - topeni, voda, plyn",
+        "ptacek instalatercentrum",
+        "ptacek instalaterske centrum"
+      ],
       "preserveTags": ["^name"],
       "tags": {
         "brand": "Ptáček",
@@ -1050,7 +1070,7 @@
       "id": "reeceactrol-b11955",
       "locationSet": {"include": ["au", "nz"]},
       "tags": {
-        "brand": "Reece Actrol",
+        "brand": "Reece",
         "brand:wikidata": "Q29025524",
         "name": "Reece Actrol",
         "shop": "trade",
@@ -1062,7 +1082,7 @@
       "id": "reecebathroomlife-b11955",
       "locationSet": {"include": ["au", "nz"]},
       "tags": {
-        "brand": "Reece Bathroom Life",
+        "brand": "Reece",
         "brand:wikidata": "Q29025524",
         "name": "Reece Bathroom Life",
         "shop": "trade",
@@ -1074,7 +1094,7 @@
       "id": "reececivil-0432d4",
       "locationSet": {"include": ["au"]},
       "tags": {
-        "brand": "Reece Civil",
+        "brand": "Reece",
         "brand:wikidata": "Q29025524",
         "name": "Reece Civil",
         "shop": "trade",
@@ -1086,7 +1106,7 @@
       "id": "reecefire-0432d4",
       "locationSet": {"include": ["au"]},
       "tags": {
-        "brand": "Reece Fire",
+        "brand": "Reece",
         "brand:wikidata": "Q29025524",
         "name": "Reece Fire",
         "shop": "trade",
@@ -1098,7 +1118,7 @@
       "id": "reecehvacr-b11955",
       "locationSet": {"include": ["au", "nz"]},
       "tags": {
-        "brand": "Reece HVAC-R",
+        "brand": "Reece",
         "brand:wikidata": "Q29025524",
         "name": "Reece HVAC-R",
         "shop": "trade",
@@ -1110,7 +1130,7 @@
       "id": "reeceirrigationandpools-0432d4",
       "locationSet": {"include": ["au"]},
       "tags": {
-        "brand": "Reece Irrigation & Pools",
+        "brand": "Reece",
         "brand:wikidata": "Q29025524",
         "name": "Reece Irrigation & Pools",
         "shop": "trade",
@@ -1122,7 +1142,7 @@
       "id": "reeceonsite-0432d4",
       "locationSet": {"include": ["au"]},
       "tags": {
-        "brand": "Reece Onsite",
+        "brand": "Reece",
         "brand:wikidata": "Q29025524",
         "name": "Reece Onsite",
         "shop": "trade",
@@ -1134,7 +1154,7 @@
       "id": "reecepipelinesupplies-0432d4",
       "locationSet": {"include": ["au"]},
       "tags": {
-        "brand": "Reece Pipeline Supplies",
+        "brand": "Reece",
         "brand:wikidata": "Q29025524",
         "name": "Reece Pipeline Supplies",
         "shop": "trade",
@@ -1146,7 +1166,7 @@
       "id": "reeceplumbingcentre-b11955",
       "locationSet": {"include": ["au", "nz"]},
       "tags": {
-        "brand": "Reece Plumbing Centre",
+        "brand": "Reece",
         "brand:wikidata": "Q29025524",
         "name": "Reece Plumbing Centre",
         "shop": "trade",
@@ -1158,7 +1178,7 @@
       "id": "reeceviadux-0432d4",
       "locationSet": {"include": ["au"]},
       "tags": {
-        "brand": "Reece Viadux",
+        "brand": "Reece",
         "brand:wikidata": "Q29025524",
         "name": "Reece Viadux",
         "shop": "trade",
@@ -1252,8 +1272,7 @@
         "brand": "Stavmat Építőanyag Kereskedelem",
         "brand:wikidata": "Q130685828",
         "name": "Stavmat Építőanyag Kereskedelem",
-        "shop": "trade",
-        "trade": "building_supplies"
+        "shop": "trade"
       }
     },
     {
@@ -1264,8 +1283,7 @@
         "brand": "Stavmat Stavebniny",
         "brand:wikidata": "Q58206129",
         "name": "Stavmat Stavebniny",
-        "shop": "trade",
-        "trade": "building_supplies"
+        "shop": "trade"
       }
     },
     {
@@ -1276,8 +1294,7 @@
         "brand": "Stavmat Stavebniny",
         "brand:wikidata": "Q130685594",
         "name": "Stavmat Stavebniny",
-        "shop": "trade",
-        "trade": "building_supplies"
+        "shop": "trade"
       }
     },
     {

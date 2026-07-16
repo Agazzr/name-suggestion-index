@@ -65,6 +65,18 @@
       }
     },
     {
+      "displayName": "Ptáček",
+      "id": "ptacek-c15e11",
+      "locationSet": {"include": ["cz", "sk"]},
+      "preserveTags": ["^name"],
+      "tags": {
+        "brand": "Ptáček",
+        "brand:wikidata": "Q58195153",
+        "name": "Ptáček",
+        "shop": "bathroom_furnishing"
+      }
+    },
+    {
       "displayName": "Richter+Frenzel",
       "id": "richterfrenzel-098dcf",
       "locationSet": {"include": ["cz", "de"]},

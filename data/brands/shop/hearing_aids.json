@@ -33,9 +33,24 @@
     },
     {
       "displayName": "Audika",
-      "id": "audika-095bca",
+      "id": "audika-d17c26",
       "locationSet": {
-        "include": ["be", "ch", "fr", "pl"]
+        "include": [
+          "au",
+          "be",
+          "ch",
+          "de",
+          "es",
+          "fr",
+          "hu",
+          "it",
+          "nl",
+          "nz",
+          "pl",
+          "pt",
+          "q35",
+          "se"
+        ]
       },
       "matchTags": ["shop/medical_supply"],
       "tags": {
@@ -403,7 +418,7 @@
       "locationSet": {"include": ["de"]},
       "tags": {
         "brand": "Vitakustik",
-        "brand:wikidata": "Q1497707",
+        "brand:wikidata": "Q87123390",
         "name": "Vitakustik",
         "shop": "hearing_aids"
       }

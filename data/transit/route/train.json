@@ -267,7 +267,7 @@
         "network": "Cercanías Cartagena",
         "network:wikidata": "Q28181968",
         "operator": "Renfe Cercanías AM",
-        "operator:wikidata": "Q3109506",
+        "operator:wikidata": "Q1143007",
         "route": "train"
       }
     },
@@ -287,7 +287,7 @@
         "network": "Cercanías Ferrol",
         "network:wikidata": "Q107428536",
         "operator": "Renfe Cercanías AM",
-        "operator:wikidata": "Q3109506",
+        "operator:wikidata": "Q1143007",
         "route": "train"
       }
     },
@@ -305,7 +305,7 @@
         "network": "Cercanías León",
         "network:wikidata": "Q107428854",
         "operator": "Renfe Cercanías AM",
-        "operator:wikidata": "Q3109506",
+        "operator:wikidata": "Q1143007",
         "route": "train"
       }
     },
@@ -406,8 +406,7 @@
         "network:wikidata": "Q1054798",
         "operator": "Renfe",
         "operator:wikidata": "Q2476154",
-        "route": "train",
-        "service": "commuter"
+        "route": "train"
       }
     },
     {
@@ -639,6 +638,28 @@
       }
     },
     {
+      "displayName": "European Sleeper",
+      "id": "europeansleeper-a508a4",
+      "locationSet": {
+        "include": [
+          "be",
+          "ch",
+          "cz",
+          "de",
+          "fx",
+          "it",
+          "nl"
+        ]
+      },
+      "tags": {
+        "network": "European Sleeper",
+        "network:wikidata": "Q112134716",
+        "operator": "European Sleeper",
+        "operator:wikidata": "Q112134716",
+        "route": "train"
+      }
+    },
+    {
       "displayName": "Eurostar",
       "id": "eurostar-8a1522",
       "locationSet": {
@@ -853,6 +874,8 @@
         "network": "Hoofdrailnet Nederland",
         "network:short": "HRN",
         "network:wikidata": "Q2337464",
+        "operator": "Nederlandse Spoorwegen",
+        "operator:wikidata": "Q23076",
         "route": "train"
       }
     },
@@ -887,6 +910,32 @@
       "tags": {
         "network": "IC",
         "network:wikidata": "Q1665939",
+        "route": "train"
+      }
+    },
+    {
+      "displayName": "Ideska",
+      "id": "integrovanydopravnisystemjihoceskehokraje-ad249a",
+      "locationSet": {
+        "include": ["cz-31.geojson"]
+      },
+      "tags": {
+        "network": "Integrovaný dopravní systém Jihočeského kraje",
+        "network:short": "Ideska",
+        "network:wikidata": "Q138862649",
+        "route": "train"
+      }
+    },
+    {
+      "displayName": "IDOK",
+      "id": "integrovanadopravakarlovarskehokraje-20b6a9",
+      "locationSet": {
+        "include": ["cz-41.geojson"]
+      },
+      "tags": {
+        "network": "Integrovaná doprava Karlovarského kraje",
+        "network:short": "IDOK",
+        "network:wikidata": "Q12021681",
         "route": "train"
       }
     },
@@ -939,13 +988,13 @@
       }
     },
     {
-      "displayName": "IDS PLUS",
+      "displayName": "IDS Plus",
       "id": "integrovanydopravnysystemplus-b6707b",
       "locationSet": {"include": ["sk"]},
       "note": "ISO 3166-2 SK-ZI",
       "tags": {
-        "network": "Integrovaný dopravný systém PLUS",
-        "network:short": "IDS PLUS",
+        "network": "Integrovaný dopravný systém Plus",
+        "network:short": "IDS Plus",
         "network:wikidata": "Q105957236",
         "route": "train"
       }
@@ -1312,6 +1361,18 @@
       }
     },
     {
+      "displayName": "Leo Express",
+      "id": "leoexpress-62da4a",
+      "locationSet": {
+        "include": ["cz", "de", "pl", "sk"]
+      },
+      "tags": {
+        "network": "Leo Express",
+        "network:wikidata": "Q851963",
+        "route": "train"
+      }
+    },
+    {
       "displayName": "Libero",
       "id": "libero-d5549f",
       "locationSet": {"include": ["ch"]},
@@ -1634,6 +1695,24 @@
         "network:guid": "DE-BY-MVV",
         "network:short": "MVV",
         "network:wikidata": "Q259000",
+        "route": "train"
+      }
+    },
+    {
+      "displayName": "Nahverkehr Mainfranken",
+      "id": "nahverkehrmainfranken-cbece5",
+      "locationSet": {
+        "include": ["de-by.geojson"]
+      },
+      "matchNames": [
+        "verkehrsunternehmens-verbund mainfranken",
+        "verkehrsverbund mainfranken",
+        "vvm"
+      ],
+      "tags": {
+        "network": "Nahverkehr Mainfranken",
+        "network:short": "NVM",
+        "network:wikidata": "Q131385745",
         "route": "train"
       }
     },
@@ -2749,7 +2828,7 @@
         "network:nan-Latn-pehoeji": "Tâi-thih",
         "network:nan-Latn-tailo": "Tâi-thih",
         "network:short": "TRA",
-        "network:wikidata": "Q112151129",
+        "network:wikidata": "Q697926",
         "network:zh": "臺鐵",
         "operator": "臺灣鐵路管理局",
         "operator:en": "Taiwan Railway Administration",
@@ -2758,7 +2837,7 @@
         "operator:nan-Latn-pehoeji": "Tâi-oân Thih-lō͘ Koán-lí-kio̍k",
         "operator:nan-Latn-tailo": "Tâi-uân Thih-lōo Kuán-lí-kio̍k",
         "operator:short": "台鐵局",
-        "operator:wikidata": "Q112151129",
+        "operator:wikidata": "Q697926",
         "operator:zh": "臺灣鐵路管理局",
         "route": "train"
       }
@@ -2848,6 +2927,8 @@
       "locationSet": {"include": ["nl"]},
       "matchNames": ["ns"],
       "tags": {
+        "brand": "R-net",
+        "brand:wikidata": "Q1824805",
         "network": "Treindienst Gouda - Alphen aan den Rijn",
         "network:wikidata": "Q108718103",
         "operator": "Nederlandse Spoorwegen",
@@ -2954,6 +3035,19 @@
       }
     },
     {
+      "displayName": "VDV",
+      "id": "verejnadopravavysociny-3d1d2b",
+      "locationSet": {
+        "include": ["cz-63.geojson"]
+      },
+      "tags": {
+        "network": "Veřejná doprava Vysočiny",
+        "network:short": "VDV",
+        "network:wikidata": "Q85938572",
+        "route": "train"
+      }
+    },
+    {
       "displayName": "Vechtdallijnen",
       "id": "vechtdallijnen-948004",
       "locationSet": {"include": ["nl"]},
@@ -3020,20 +3114,6 @@
         "network": "Verkehrsverbund Kärnten",
         "network:short": "VVK",
         "network:wikidata": "Q2516465",
-        "route": "train"
-      }
-    },
-    {
-      "displayName": "Verkehrsverbund Mainfranken",
-      "id": "verkehrsverbundmainfranken-da20e0",
-      "locationSet": {"include": ["de"]},
-      "matchNames": [
-        "verkehrsunternehmens-verbund mainfranken"
-      ],
-      "tags": {
-        "network": "Verkehrsverbund Mainfranken",
-        "network:short": "VVM",
-        "network:wikidata": "Q2516466",
         "route": "train"
       }
     },

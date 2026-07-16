@@ -330,6 +330,17 @@
       }
     },
     {
+      "displayName": "Home & Cook",
+      "id": "homeandcook-e035a4",
+      "locationSet": {"include": ["150"]},
+      "tags": {
+        "brand": "Home & Cook",
+        "brand:wikidata": "Q139488397",
+        "name": "Home & Cook",
+        "shop": "houseware"
+      }
+    },
+    {
       "displayName": "Home Store + More",
       "id": "homestoremore-b52391",
       "locationSet": {"include": ["ie"]},
@@ -767,6 +778,21 @@
       }
     },
     {
+      "displayName": "Tefal",
+      "id": "tefal-de9f7c",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["003", "jp"]
+      },
+      "preserveTags": ["^name"],
+      "tags": {
+        "brand": "Tefal",
+        "brand:wikidata": "Q134176292",
+        "name": "Tefal",
+        "shop": "houseware"
+      }
+    },
+    {
       "displayName": "Tescoma",
       "id": "tescoma-19bb0d",
       "locationSet": {"include": ["001"]},
@@ -931,6 +957,21 @@
         "brand": "Zwilling",
         "brand:wikidata": "Q244736",
         "name": "Zwilling",
+        "shop": "houseware"
+      }
+    },
+    {
+      "displayName": "Παρουσίαση (Parousiasi)",
+      "id": "parousiasi-d48b77",
+      "locationSet": {"include": ["gr"]},
+      "tags": {
+        "brand": "Παρουσίαση",
+        "brand:el": "Παρουσίαση",
+        "brand:en": "Parousiasi",
+        "brand:wikidata": "Q140454500",
+        "name": "Παρουσίαση",
+        "name:el": "Παρουσίαση",
+        "name:en": "Parousiasi",
         "shop": "houseware"
       }
     },

@@ -200,6 +200,29 @@
       }
     },
     {
+      "displayName": "Quirónprevención",
+      "id": "quironprevencion-befa0a",
+      "locationSet": {
+        "include": [
+          "ar",
+          "co",
+          "es",
+          "mx",
+          "pa",
+          "pe",
+          "pt"
+        ]
+      },
+      "tags": {
+        "amenity": "clinic",
+        "brand": "Quirónprevención",
+        "brand:wikidata": "Q140050574",
+        "healthcare": "clinic",
+        "healthcare:speciality": "occupational",
+        "name": "Quirónprevención"
+      }
+    },
+    {
       "displayName": "RRH Urgent Care",
       "id": "rochesterregionalhealthurgentcare-a9ca6f",
       "locationSet": {
@@ -341,6 +364,18 @@
         "brand": "Vein Clinics of America",
         "brand:wikidata": "Q113712355",
         "healthcare": "clinic"
+      }
+    },
+    {
+      "displayName": "WellNow Urgent Care",
+      "id": "wellnowurgentcare-b3ff53",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "amenity": "clinic",
+        "brand": "WellNow Urgent Care",
+        "brand:wikidata": "Q18389950",
+        "healthcare": "clinic",
+        "name": "WellNow Urgent Care"
       }
     }
   ]

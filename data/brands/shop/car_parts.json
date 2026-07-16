@@ -348,6 +348,7 @@
       "tags": {
         "brand": "Interstate Batteries",
         "brand:wikidata": "Q12060773",
+        "car_parts": "battery",
         "name": "Interstate Batteries",
         "shop": "car_parts"
       }
@@ -712,6 +713,23 @@
       "tags": {
         "brand": "Колесо.ру",
         "name": "Колесо.ру",
+        "shop": "car_parts"
+      }
+    },
+    {
+      "displayName": "ამბოლი",
+      "id": "amboli-99ec77",
+      "locationSet": {"include": ["ge"]},
+      "tags": {
+        "brand": "ამბოლი",
+        "brand:en": "Amboli",
+        "brand:ka": "ამბოლი",
+        "brand:ru": "Амболи",
+        "brand:wikidata": "Q134735780",
+        "name": "ამბოლი",
+        "name:en": "Amboli",
+        "name:ka": "ამბოლი",
+        "name:ru": "Амболи",
         "shop": "car_parts"
       }
     },

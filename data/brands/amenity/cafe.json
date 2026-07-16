@@ -147,6 +147,7 @@
         "cuisine": "coffee_shop",
         "drink:coffee": "yes",
         "drive_through": "only",
+        "name": "7 Brew",
         "takeaway": "yes"
       }
     },
@@ -436,6 +437,20 @@
         "brand:wikidata": "Q100272631",
         "cuisine": "coffee_shop",
         "name": "Baggins Coffee",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "displayName": "Baker Hansen",
+      "id": "bakerhansen-d290fd",
+      "locationSet": {"include": ["no"]},
+      "preserveTags": ["^name"],
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Baker Hansen",
+        "brand:wikidata": "Q11960022",
+        "cuisine": "bakery;coffee_shop",
+        "name": "Baker Hansen",
         "takeaway": "yes"
       }
     },
@@ -741,6 +756,19 @@
         "brand:wikidata": "Q125537779",
         "cuisine": "bubble_tea",
         "name": "Boba Guys",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "displayName": "Boheme",
+      "id": "boheme-4351d9",
+      "locationSet": {"include": ["es"]},
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Boheme",
+        "brand:wikidata": "Q140089658",
+        "cuisine": "coffee_shop",
+        "name": "Boheme",
         "takeaway": "yes"
       }
     },
@@ -1152,6 +1180,20 @@
         "brand:wikidata": "Q136735524",
         "cuisine": "coffee_shop",
         "name": "Caffé Trieste",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "displayName": "Caffè Vergnano 1882",
+      "id": "caffevergnano1882-ac0738",
+      "locationSet": {"include": ["it"]},
+      "matchNames": ["caffè vergnano"],
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Caffè Vergnano 1882",
+        "brand:wikidata": "Q3649598",
+        "cuisine": "coffee_shop",
+        "name": "Caffè Vergnano 1882",
         "takeaway": "yes"
       }
     },
@@ -1794,6 +1836,21 @@
       }
     },
     {
+      "displayName": "Copenhagen Coffee Lab",
+      "id": "copenhagencoffeelab-9895e8",
+      "locationSet": {
+        "include": ["de", "dk", "fr", "pt"]
+      },
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Copenhagen Coffee Lab",
+        "brand:wikidata": "Q140147306",
+        "cuisine": "coffee_shop",
+        "name": "Copenhagen Coffee Lab",
+        "takeaway": "yes"
+      }
+    },
+    {
       "displayName": "Corner Bakery",
       "id": "cornerbakery-243cad",
       "locationSet": {"include": ["us"]},
@@ -2035,6 +2092,20 @@
       }
     },
     {
+      "displayName": "Ellianos Coffee",
+      "id": "ellianoscoffee-243cad",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Ellianos Coffee",
+        "brand:wikidata": "Q131838287",
+        "cuisine": "coffee_shop",
+        "drive_through": "only",
+        "name": "Ellianos Coffee",
+        "takeaway": "only"
+      }
+    },
+    {
       "displayName": "Equatorial Coffee",
       "id": "equatorialcoffee-9d066f",
       "locationSet": {"include": ["za"]},
@@ -2066,8 +2137,34 @@
     },
     {
       "displayName": "Espressolab",
-      "id": "espressolab-295705",
-      "locationSet": {"include": ["ma", "tr"]},
+      "id": "espressolab-b8d32b",
+      "issues": [12163],
+      "locationSet": {
+        "include": [
+          "ae",
+          "bh",
+          "cg",
+          "de",
+          "eg",
+          "id",
+          "iq",
+          "jo",
+          "kg",
+          "kw",
+          "kz",
+          "lb",
+          "ly",
+          "ma",
+          "ps",
+          "pt",
+          "q23681",
+          "qa",
+          "tr",
+          "xk",
+          "za"
+        ]
+      },
+      "note": "Q23681 refers to Northern Cyprus",
       "tags": {
         "amenity": "cafe",
         "brand": "Espressolab",
@@ -2347,6 +2444,19 @@
         "brand:wikidata": "Q113687389",
         "cuisine": "coffee_shop",
         "name": "Grind",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "displayName": "Haferkater",
+      "id": "haferkater-c024da",
+      "locationSet": {"include": ["de"]},
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Haferkater",
+        "brand:wikidata": "Q117306689",
+        "cuisine": "coffee_shop;porridge",
+        "name": "Haferkater",
         "takeaway": "yes"
       }
     },
@@ -2831,6 +2941,33 @@
       }
     },
     {
+      "displayName": "Junbi",
+      "id": "junbi-243cad",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Junbi",
+        "brand:wikidata": "Q133863594",
+        "cuisine": "tea",
+        "name": "Junbi",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "displayName": "Kaffebrenneriet",
+      "id": "kaffebrenneriet-d290fd",
+      "locationSet": {"include": ["no"]},
+      "preserveTags": ["^name"],
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Kaffebrenneriet",
+        "brand:wikidata": "Q6346093",
+        "cuisine": "coffee_shop",
+        "name": "Kaffebrenneriet",
+        "takeaway": "yes"
+      }
+    },
+    {
       "displayName": "Kahve Dünyası",
       "id": "kahvedunyasi-9278bc",
       "locationSet": {
@@ -2976,6 +3113,25 @@
         "brand:wikidata": "Q2046903",
         "cuisine": "coffee_shop",
         "name": "Le Pain Quotidien",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "displayName": "Lollicup",
+      "id": "lollicup-319cac",
+      "locationSet": {
+        "include": [
+          "us-ca.geojson",
+          "us-co.geojson",
+          "us-ut.geojson"
+        ]
+      },
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Lollicup",
+        "brand:wikidata": "Q16961135",
+        "cuisine": "bubble_tea",
+        "name": "Lollicup",
         "takeaway": "yes"
       }
     },
@@ -3148,7 +3304,7 @@
         "amenity": "cafe",
         "brand": "Matcha Cafe Maiko",
         "brand:wikidata": "Q113528897",
-        "cuisine": "coffee_shop",
+        "cuisine": "tea",
         "name": "Matcha Cafe Maiko",
         "takeaway": "yes"
       }
@@ -3446,6 +3602,25 @@
       }
     },
     {
+      "displayName": "Nana's Green Tea",
+      "id": "nanasgreentea-481368",
+      "locationSet": {
+        "include": ["au", "ca", "sg", "tw", "us"]
+      },
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Nana's Green Tea",
+        "brand:en": "Nana's Green Tea",
+        "brand:ja": "ナナズグリーンティー",
+        "brand:wikidata": "Q28682440",
+        "cuisine": "tea",
+        "name": "Nana's Green Tea",
+        "name:en": "Nana's Green Tea",
+        "name:ja": "ナナズグリーンティー",
+        "takeaway": "yes"
+      }
+    },
+    {
       "displayName": "Nero Express (Caffè Nero)",
       "id": "neroexpress-4a2ca5",
       "locationSet": {
@@ -3540,6 +3715,20 @@
         "brand:wikidata": "Q7085308",
         "cuisine": "coffee_shop;malaysian",
         "name": "OldTown White Coffee",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "displayName": "One Price Coffee",
+      "id": "onepricecoffee-1c12ef",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "amenity": "cafe",
+        "brand": "One Price Coffee",
+        "brand:wikidata": "Q108215010",
+        "cuisine": "coffee_shop",
+        "name": "One Price Coffee",
+        "name:en": "One Price Coffee",
         "takeaway": "yes"
       }
     },
@@ -4343,6 +4532,19 @@
       }
     },
     {
+      "displayName": "Sunright Tea Studio",
+      "id": "sunrightteastudio-5ae24e",
+      "locationSet": {"include": ["mx", "us"]},
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Sunright Tea Studio",
+        "brand:wikidata": "Q140197755",
+        "cuisine": "bubble_tea",
+        "name": "Sunright Tea Studio",
+        "takeaway": "yes"
+      }
+    },
+    {
       "displayName": "Surf Coffee",
       "id": "surfcoffee-1c12ef",
       "locationSet": {"include": ["ru"]},
@@ -4439,8 +4641,22 @@
     },
     {
       "displayName": "Tealive",
-      "id": "tealive-2aa1ef",
-      "locationSet": {"include": ["my"]},
+      "id": "tealive-66d1a3",
+      "locationSet": {
+        "include": [
+          "ae",
+          "bn",
+          "ca",
+          "in",
+          "kh",
+          "mm",
+          "mu",
+          "my",
+          "ph",
+          "sg",
+          "vn"
+        ]
+      },
       "tags": {
         "amenity": "cafe",
         "brand": "Tealive",
@@ -4459,6 +4675,7 @@
       "tags": {
         "amenity": "cafe",
         "brand": "Teapresso Bar",
+        "brand:wikidata": "Q140383803",
         "cuisine": "tea;coffee_shop",
         "name": "Teapresso Bar",
         "takeaway": "yes"
@@ -4505,8 +4722,10 @@
     },
     {
       "displayName": "The Alley",
-      "id": "thealley-b3d618",
-      "locationSet": {"include": ["hk", "mo"]},
+      "id": "thealley-f1575c",
+      "locationSet": {
+        "include": ["hk", "mo", "us"]
+      },
       "tags": {
         "amenity": "cafe",
         "brand": "The Alley",
@@ -4552,7 +4771,7 @@
     },
     {
       "displayName": "The Coffee",
-      "id": "thecoffee-0a0956",
+      "id": "thecoffee-8092f8",
       "locationSet": {
         "include": [
           "ae",
@@ -4572,6 +4791,7 @@
           "my",
           "pe",
           "pt",
+          "rs",
           "th"
         ]
       },
@@ -4683,6 +4903,7 @@
       "tags": {
         "amenity": "cafe",
         "brand": "The Italian Coffee Company",
+        "brand:wikidata": "Q126896645",
         "cuisine": "coffee_shop",
         "name": "The Italian Coffee Company",
         "takeaway": "yes"
@@ -5008,6 +5229,7 @@
       "tags": {
         "amenity": "cafe",
         "brand": "Vivari",
+        "brand:wikidata": "Q139549831",
         "cuisine": "coffee_shop",
         "name": "Vivari",
         "takeaway": "yes"
@@ -5294,6 +5516,36 @@
         "brand": "Дед Хо",
         "cuisine": "vietnamese",
         "name": "Дед Хо",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "displayName": "Дринкит",
+      "id": "drinkit-1c12ef",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Дринкит",
+        "brand:wikidata": "Q139554667",
+        "cuisine": "coffee_shop",
+        "name": "Дринкит",
+        "name:en": "Drinkit",
+        "name:ru": "Дринкит",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "displayName": "Здрасте",
+      "id": "zdraste-1c12ef",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Здрасте",
+        "brand:wikidata": "Q139554652",
+        "cuisine": "coffee_shop",
+        "name": "Здрасте",
+        "name:en": "Zdraste",
+        "name:ru": "Здрасте",
         "takeaway": "yes"
       }
     },
@@ -5880,6 +6132,23 @@
         "name": "هاف مليون",
         "name:ar": "هاف مليون",
         "name:en": "Half Million",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "displayName": "กาแฟพันธุ์ไทย",
+      "id": "punthaicoffee-b6dfae",
+      "locationSet": {"include": ["th"]},
+      "tags": {
+        "amenity": "cafe",
+        "brand": "กาแฟพันธุ์ไทย",
+        "brand:en": "Punthai Coffee",
+        "brand:th": "กาแฟพันธุ์ไทย",
+        "brand:wikidata": "Q140377250",
+        "cuisine": "coffee_shop",
+        "name": "กาแฟพันธุ์ไทย",
+        "name:en": "Punthai Coffee",
+        "name:th": "กาแฟพันธุ์ไทย",
         "takeaway": "yes"
       }
     },
@@ -7170,19 +7439,35 @@
     },
     {
       "displayName": "库迪咖啡",
-      "id": "cotticoffee-823e31",
+      "id": "cotticoffee-c68570",
       "locationSet": {
-        "include": ["cn"],
-        "exclude": ["hk", "mo"]
+        "include": [
+          "ae",
+          "au",
+          "ca",
+          "cn",
+          "hk",
+          "id",
+          "jp",
+          "kr",
+          "mo",
+          "my",
+          "ph",
+          "qa",
+          "sg",
+          "th",
+          "us",
+          "vn"
+        ]
       },
       "tags": {
         "amenity": "cafe",
-        "brand": "库迪咖啡",
+        "brand": "Cotti Coffee 库迪咖啡",
         "brand:en": "Cotti Coffee",
         "brand:wikidata": "Q123370986",
         "brand:zh": "库迪咖啡",
         "cuisine": "coffee_shop",
-        "name": "库迪咖啡",
+        "name": "Cotti Coffee 库迪咖啡",
         "name:en": "Cotti Coffee",
         "name:zh": "库迪咖啡",
         "takeaway": "yes"

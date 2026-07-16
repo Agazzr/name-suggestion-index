@@ -1,13 +1,15 @@
 {
   "compilerOptions": {
     // Language and Environment
-    "target": "ES2022",
-    "lib": ["ESNext", "DOM"],
+    "lib": ["ESNext"],
+    "target": "ESNext",
 
     // Modules
     "module": "ESNext",
+    "moduleDetection": "force",
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
 
@@ -21,17 +23,25 @@
     // Type Checking
     "strict": true,
     "noImplicitAny": true,
+    "noImplicitReturns": true,
     "skipLibCheck": true,
     "noFallthroughCasesInSwitch": true,
     "noUncheckedIndexedAccess": false,
     "noImplicitOverride": true,
+    "exactOptionalPropertyTypes": true,
+    "erasableSyntaxOnly": true,
 
     // Some stricter flags (disabled by default)
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noPropertyAccessFromIndexSignature": false
   },
-  "include": ["src", "lib"],
+  "include": [
+    "lib/**/*",
+    "scripts/**/*",
+    "src/**/*",
+    "test/**/*"
+  ],
   "exclude": [
     "node_modules",
     "dist"

@@ -175,8 +175,10 @@
     },
     {
       "displayName": "Allied Pharmacies",
-      "id": "alliedpharmacy-c9f407",
-      "locationSet": {"include": ["gb-eng"]},
+      "id": "alliedpharmacy-453661",
+      "locationSet": {
+        "include": ["gb-eng", "gb-wls"]
+      },
       "preserveTags": ["^name"],
       "tags": {
         "amenity": "pharmacy",
@@ -226,9 +228,20 @@
     },
     {
       "displayName": "Alphega Pharmacy",
-      "id": "alphegapharmacy-4d3705",
+      "id": "alphegapharmacy-7f7034",
       "locationSet": {
-        "include": ["gb-lon.geojson"]
+        "include": [
+          "cz",
+          "de",
+          "es",
+          "fx",
+          "gb",
+          "it",
+          "nl",
+          "pt",
+          "ro",
+          "tr"
+        ]
       },
       "preserveTags": ["^name"],
       "tags": {
@@ -533,9 +546,10 @@
     },
     {
       "displayName": "Benu",
-      "id": "benu-1cd44c",
+      "id": "benu-9cc401",
       "locationSet": {
         "include": [
+          "bg",
           "ch",
           "cz",
           "ee",
@@ -558,20 +572,6 @@
         "amenity": "pharmacy",
         "brand": "Benu",
         "brand:wikidata": "Q62562792",
-        "healthcare": "pharmacy",
-        "name": "Benu"
-      }
-    },
-    {
-      "displayName": "Benu България",
-      "id": "benu-768624",
-      "locationSet": {"include": ["bg"]},
-      "tags": {
-        "amenity": "pharmacy",
-        "brand": "Benu",
-        "brand:bg": "Бену",
-        "brand:en": "Benu",
-        "brand:wikidata": "Q123669148",
         "healthcare": "pharmacy",
         "name": "Benu"
       }
@@ -1263,6 +1263,19 @@
         "brand:wikidata": "Q136759298",
         "healthcare": "pharmacy",
         "name": "Družstvo lékáren"
+      }
+    },
+    {
+      "displayName": "Družstvo lekární",
+      "id": "druzstvolekarni-f39a0c",
+      "locationSet": {"include": ["sk"]},
+      "preserveTags": ["^name"],
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Družstvo lekární",
+        "brand:wikidata": "Q136759269",
+        "healthcare": "pharmacy",
+        "name": "Družstvo lekární"
       }
     },
     {
@@ -1983,6 +1996,26 @@
       }
     },
     {
+      "displayName": "Giant Eagle Pharmacy",
+      "id": "gianteaglepharmacy-abe2e3",
+      "locationSet": {
+        "include": [
+          "us-in.geojson",
+          "us-md.geojson",
+          "us-oh.geojson",
+          "us-pa.geojson",
+          "us-wv.geojson"
+        ]
+      },
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Giant Eagle",
+        "brand:wikidata": "Q1522721",
+        "healthcare": "pharmacy",
+        "name": "Giant Eagle Pharmacy"
+      }
+    },
+    {
       "displayName": "Giant Pharmacy (Landover)",
       "id": "giantpharmacy-b6c0ea",
       "locationSet": {
@@ -2253,6 +2286,18 @@
       }
     },
     {
+      "displayName": "Hipermaxi",
+      "id": "hipermaxi-552afd",
+      "locationSet": {"include": ["bo"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Hipermaxi",
+        "brand:wikidata": "Q81968262",
+        "healthcare": "pharmacy",
+        "name": "Hipermaxi"
+      }
+    },
+    {
       "displayName": "Hippocrates",
       "id": "hippocrates-52cb11",
       "locationSet": {"include": ["md"]},
@@ -2273,6 +2318,17 @@
         "brand:wikidata": "Q1639719",
         "healthcare": "pharmacy",
         "name": "Hy-Vee Pharmacy"
+      }
+    },
+    {
+      "displayName": "Hygieia",
+      "id": "hygieia-cf61fb",
+      "locationSet": {"include": ["pl"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Hygieia",
+        "brand:wikidata": "Q122906354",
+        "healthcare": "pharmacy"
       }
     },
     {
@@ -2325,15 +2381,17 @@
       }
     },
     {
-      "displayName": "Jhoots Pharmacy",
-      "id": "jhootspharmacy-b98d4f",
+      "displayName": "JHL Pharmacies",
+      "id": "jhlpharmacies-b98d4f",
       "locationSet": {"include": ["gb"]},
+      "matchNames": ["jhoots", "jhoots pharmacy"],
+      "note": "Formally Jhoots Pharmacy",
       "tags": {
         "amenity": "pharmacy",
-        "brand": "Jhoots Pharmacy",
-        "brand:wikidata": "Q91440588",
+        "brand": "JHL Pharmacies",
+        "brand:wikidata": "Q139659869",
         "healthcare": "pharmacy",
-        "name": "Jhoots Pharmacy"
+        "name": "JHL Pharmacies"
       }
     },
     {
@@ -2419,6 +2477,20 @@
         "brand:wikidata": "Q91301346",
         "healthcare": "pharmacy",
         "name": "Lafayette"
+      }
+    },
+    {
+      "displayName": "Lekáreň Partner",
+      "id": "lekarenpartner-f39a0c",
+      "locationSet": {"include": ["sk"]},
+      "matchNames": ["partner"],
+      "preserveTags": ["^name"],
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Lekáreň Partner",
+        "brand:wikidata": "Q136761929",
+        "healthcare": "pharmacy",
+        "name": "Lekáreň Partner"
       }
     },
     {
@@ -3842,6 +3914,19 @@
       }
     },
     {
+      "displayName": "Trio lekáreň",
+      "id": "triolekaren-f39a0c",
+      "locationSet": {"include": ["sk"]},
+      "preserveTags": ["^name"],
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Trio lekáreň",
+        "brand:wikidata": "Q136761486",
+        "healthcare": "pharmacy",
+        "name": "Trio lekáreň"
+      }
+    },
+    {
       "displayName": "Uai Farma",
       "id": "uaifarma-295f06",
       "locationSet": {"include": ["br"]},
@@ -5230,6 +5315,19 @@
       }
     },
     {
+      "displayName": "Самсон-Фарма",
+      "id": "samsonpharma-288c27",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Самсон-Фарма",
+        "brand:wikidata": "Q19911073",
+        "healthcare": "pharmacy",
+        "name": "Самсон-Фарма",
+        "name:en": "Samson-Pharma"
+      }
+    },
+    {
       "displayName": "Санита",
       "id": "sanita-768624",
       "locationSet": {"include": ["bg"]},
@@ -5312,6 +5410,19 @@
         "brand:wikidata": "Q109717665",
         "healthcare": "pharmacy",
         "name": "Столички"
+      }
+    },
+    {
+      "displayName": "Столичные аптеки",
+      "id": "stolichnyeapteki-288c27",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Столичные аптеки",
+        "brand:wikidata": "Q139555187",
+        "healthcare": "pharmacy",
+        "name": "Столичные аптеки",
+        "name:en": "Stolichnye Apteki"
       }
     },
     {

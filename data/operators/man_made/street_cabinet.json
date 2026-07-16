@@ -2534,16 +2534,16 @@
     },
     {
       "displayName": "Netz NÖ",
-      "id": "netzno-4935d6",
+      "id": "netzniederosterreich-4935d6",
       "locationSet": {"include": ["at"]},
       "matchNames": [
-        "netz niederösterreich",
         "netz niederösterreich gmbh",
         "nö netz"
       ],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Netz NÖ",
+        "operator": "Netz Niederösterreich",
+        "operator:short": "Netz NÖ",
         "operator:wikidata": "Q109512632"
       }
     },
@@ -2945,11 +2945,12 @@
     },
     {
       "displayName": "PRE",
-      "id": "pre-b00889",
+      "id": "prazskaenergetika-b00889",
       "locationSet": {"include": ["cz"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "PRE",
+        "operator": "Pražská energetika",
+        "operator:short": "PRE",
         "operator:wikidata": "Q15870812"
       }
     },

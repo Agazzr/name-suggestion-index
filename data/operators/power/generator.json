@@ -9,9 +9,15 @@
         "^production manager$"
       ],
       "named": [
+        "^enercon gmbh$",
+        "^enercon$",
         "^entergy corporation and shell wind corporation$",
+        "^gamesa$",
+        "^nordex$",
         "^private?$",
+        "^siemens gamesa$",
         "^une – sen$",
+        "^vestas$",
         "^xcel energy\\/iberdrola renewables$",
         "^xcel\\/sunedison$"
       ]
@@ -2846,17 +2852,6 @@
       }
     },
     {
-      "displayName": "Enercon",
-      "id": "enercon-b8ae25",
-      "locationSet": {"include": ["de"]},
-      "matchNames": ["enercon gmbh"],
-      "tags": {
-        "operator": "Enercon",
-        "operator:wikidata": "Q508839",
-        "power": "generator"
-      }
-    },
-    {
       "displayName": "Energa Wytwarzanie S.A.",
       "id": "energawytwarzaniesa-c79aa4",
       "locationSet": {"include": ["pl"]},
@@ -3154,7 +3149,7 @@
       "locationSet": {"include": ["de"]},
       "tags": {
         "operator": "Enovos",
-        "operator:wikidata": "Q130729048",
+        "operator:wikidata": "Q1343601",
         "power": "generator"
       }
     },
@@ -4142,7 +4137,7 @@
       "locationSet": {"include": ["001"]},
       "tags": {
         "operator": "General Electric",
-        "operator:wikidata": "Q1485061",
+        "operator:wikidata": "Q54173",
         "power": "generator"
       }
     },
@@ -5925,8 +5920,10 @@
     },
     {
       "displayName": "Metropolitan Police Service",
-      "id": "metropolitanpoliceservice-a0f939",
-      "locationSet": {"include": ["gb-eng"]},
+      "id": "metropolitanpoliceservice-b31211",
+      "locationSet": {
+        "include": ["gb-lon.geojson"]
+      },
       "tags": {
         "operator": "Metropolitan Police Service",
         "operator:wikidata": "Q1139213",
@@ -6293,16 +6290,6 @@
       }
     },
     {
-      "displayName": "Nordex",
-      "id": "nordex-74685d",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "operator": "Nordex",
-        "operator:wikidata": "Q571700",
-        "power": "generator"
-      }
-    },
-    {
       "displayName": "Nordsee One GmbH",
       "id": "nordseeonegmbh-b8ae25",
       "locationSet": {"include": ["de"]},
@@ -6505,11 +6492,15 @@
       }
     },
     {
-      "displayName": "Octopus Investments",
-      "id": "octopusinvestments-9ac094",
+      "displayName": "Octopus Energy",
+      "id": "octopusenergy-9ac094",
       "locationSet": {"include": ["gb"]},
+      "matchNames": [
+        "octopus",
+        "octopus investments"
+      ],
       "tags": {
-        "operator": "Octopus Investments",
+        "operator": "Octopus Energy",
         "operator:wikidata": "Q63242134",
         "power": "generator"
       }
@@ -7835,17 +7826,6 @@
       "locationSet": {"include": ["fx"]},
       "tags": {
         "operator": "SIEL",
-        "power": "generator"
-      }
-    },
-    {
-      "displayName": "Siemens Gamesa",
-      "id": "siemensgamesa-8b20a8",
-      "locationSet": {"include": ["es", "fx"]},
-      "matchNames": ["gamesa"],
-      "tags": {
-        "operator": "Siemens Gamesa",
-        "operator:wikidata": "Q1493131",
         "power": "generator"
       }
     },
@@ -9437,16 +9417,6 @@
       }
     },
     {
-      "displayName": "Vestas",
-      "id": "vestas-74685d",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "operator": "Vestas",
-        "operator:wikidata": "Q868259",
-        "power": "generator"
-      }
-    },
-    {
       "displayName": "Viesgo Renovables, S.L.U.",
       "id": "viesgorenovablesslu-4d4c0b",
       "locationSet": {
@@ -9507,7 +9477,7 @@
       },
       "tags": {
         "operator": "Virginia Electric & Power Company",
-        "operator:wikidata": "Q677464",
+        "operator:wikidata": "Q117834539",
         "power": "generator"
       }
     },

@@ -74,6 +74,19 @@
       }
     },
     {
+      "displayName": "Anton Sport",
+      "id": "antonsport-6faf2d",
+      "locationSet": {"include": ["no"]},
+      "matchTags": ["shop/bicycle"],
+      "preserveTags": ["^name"],
+      "tags": {
+        "brand": "Anton Sport",
+        "brand:wikidata": "Q11958427",
+        "name": "Anton Sport",
+        "shop": "sports"
+      }
+    },
+    {
       "displayName": "Arei Outdoor Gear",
       "id": "areioutdoorgear-f9c896",
       "locationSet": {"include": ["id"]},
@@ -81,23 +94,6 @@
         "brand": "Arei Outdoor Gear",
         "brand:wikidata": "Q114343299",
         "name": "Arei Outdoor Gear",
-        "shop": "sports"
-      }
-    },
-    {
-      "displayName": "Athletics",
-      "id": "athletics-d7f1c6",
-      "locationSet": {"include": ["ua"]},
-      "matchNames": [
-        "sportmaster",
-        "атлетикс",
-        "атлетікс",
-        "спортмастер"
-      ],
-      "tags": {
-        "brand": "Athletics",
-        "brand:wikidata": "Q116871533",
-        "name": "Athletics",
         "shop": "sports"
       }
     },
@@ -207,6 +203,18 @@
         "name:en": "Decathlon",
         "name:ru": "Декатлон",
         "name:uk": "Декатлон",
+        "shop": "sports"
+      }
+    },
+    {
+      "displayName": "Desport",
+      "id": "desport-7ece8a",
+      "locationSet": {"include": ["ru"]},
+      "matchNames": ["decathlon", "деспорт"],
+      "tags": {
+        "brand": "Desport",
+        "brand:wikidata": "Q139730759",
+        "name": "Desport",
         "shop": "sports"
       }
     },
@@ -328,12 +336,23 @@
       }
     },
     {
+      "displayName": "Givova",
+      "id": "givova-c3bdd2",
+      "locationSet": {"include": ["it"]},
+      "tags": {
+        "brand": "Givova",
+        "brand:wikidata": "Q3108205",
+        "name": "Givova",
+        "shop": "sports"
+      }
+    },
+    {
       "displayName": "GO Sport",
       "id": "gosport-63990e",
       "locationSet": {"include": ["fr"]},
       "tags": {
         "brand": "GO Sport",
-        "brand:wikidata": "Q666888",
+        "brand:wikidata": "Q3117422",
         "name": "GO Sport",
         "shop": "sports"
       }
@@ -415,7 +434,7 @@
     },
     {
       "displayName": "Hoka",
-      "id": "hoka-4a6d5f",
+      "id": "hoka-9f13b9",
       "locationSet": {
         "include": [
           "ad",
@@ -470,7 +489,6 @@
           "re",
           "ro",
           "rs",
-          "ru",
           "se",
           "si",
           "sk",

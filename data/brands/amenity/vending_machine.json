@@ -20,6 +20,7 @@
         "^parquímetro$",
         "^taromatas$",
         "^zigarettenautomat$",
+        "^zona azul$",
         "^自販機$"
       ]
     }
@@ -1072,7 +1073,7 @@
       "tags": {
         "amenity": "vending_machine",
         "brand": "Parkeon",
-        "brand:wikidata": "Q131636808",
+        "brand:wikidata": "Q3365450",
         "vending": "parking_tickets"
       }
     },
@@ -1415,12 +1416,16 @@
     },
     {
       "displayName": "Terminal Automática SUBE",
-      "id": "terminalautomaticasube-48f03b",
+      "id": "sube-48f03b",
       "locationSet": {"include": ["ar"]},
+      "matchNames": [
+        "sistema único de boleto electrónico",
+        "terminal automática sube"
+      ],
       "tags": {
         "amenity": "vending_machine",
-        "brand": "Terminal Automática SUBE",
-        "name": "Terminal Automática SUBE",
+        "brand": "SUBE",
+        "brand:wikidata": "Q7394941",
         "vending": "public_transport_tickets"
       }
     },
@@ -1589,18 +1594,6 @@
         "brand:wikidata": "Q131598948",
         "name": "Zernova",
         "vending": "coffee"
-      }
-    },
-    {
-      "displayName": "Zona Azul",
-      "id": "zonaazul-9a306d",
-      "locationSet": {"include": ["es"]},
-      "tags": {
-        "amenity": "vending_machine",
-        "brand": "Zona Azul",
-        "brand:wikidata": "Q6052214",
-        "name": "Zona Azul",
-        "vending": "parking_tickets"
       }
     },
     {
