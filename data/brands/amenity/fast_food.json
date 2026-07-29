@@ -2965,8 +2965,8 @@
     },
     {
       "displayName": "Doughnut Time",
-      "id": "doughnuttime-1abd07",
-      "locationSet": {"include": ["gb-eng"]},
+      "id": "doughnuttime-f0727d",
+      "locationSet": {"include": ["de", "gb"]},
       "tags": {
         "amenity": "fast_food",
         "brand": "Doughnut Time",
@@ -8418,10 +8418,10 @@
     },
     {
       "displayName": "Pizza Hut Delivery",
-      "id": "pizzahutdelivery-e0c6c1",
+      "id": "pizzahutdelivery-8b0e85",
       "locationSet": {
         "include": ["001"],
-        "exclude": ["fr", "gb"]
+        "exclude": ["fr", "gb", "kr"]
       },
       "tags": {
         "amenity": "fast_food",
@@ -8449,8 +8449,11 @@
     },
     {
       "displayName": "Pizza Hut Express",
-      "id": "pizzahutexpress-658eea",
-      "locationSet": {"include": ["001"]},
+      "id": "pizzahutexpress-165c34",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["kr"]
+      },
       "tags": {
         "amenity": "fast_food",
         "brand": "Pizza Hut",
@@ -9300,6 +9303,19 @@
         "brand:wikidata": "Q123034964",
         "cuisine": "burger",
         "name": "RocoGo",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "displayName": "Rodeo Doughnuts",
+      "id": "rodeodoughnuts-1abd07",
+      "locationSet": {"include": ["gb-eng"]},
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Rodeo Doughnuts",
+        "brand:wikidata": "Q140723445",
+        "cuisine": "donut",
+        "name": "Rodeo Doughnuts",
         "takeaway": "yes"
       }
     },
@@ -13634,6 +13650,27 @@
         "name": "파파이스",
         "name:en": "Popeyes",
         "name:ko": "파파이스",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "displayName": "피자헛",
+      "id": "pizzahut-c56583",
+      "locationSet": {"include": ["kr"]},
+      "matchNames": [
+        "pizza hut delivery",
+        "pizza hut express"
+      ],
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "피자헛",
+        "brand:en": "Pizza Hut",
+        "brand:ko": "피자헛",
+        "brand:wikidata": "Q191615",
+        "cuisine": "pizza",
+        "name": "피자헛",
+        "name:en": "Pizza Hut",
+        "name:ko": "피자헛",
         "takeaway": "yes"
       }
     },

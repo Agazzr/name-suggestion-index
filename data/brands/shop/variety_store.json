@@ -862,6 +862,17 @@
       }
     },
     {
+      "displayName": "Sqrups",
+      "id": "sqrups-643a1b",
+      "locationSet": {"include": ["es"]},
+      "tags": {
+        "brand": "Sqrups",
+        "brand:wikidata": "Q135914246",
+        "name": "Sqrups",
+        "shop": "variety_store"
+      }
+    },
+    {
       "displayName": "Stokomani",
       "id": "stokomani-efe747",
       "locationSet": {"include": ["fx"]},
