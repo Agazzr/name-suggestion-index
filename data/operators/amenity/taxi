@@ -1,0 +1,22 @@
+{
+  "properties": {
+    "path": "operators/amenity/taxi",
+    "exclude": {
+      "generic": ["^taxi$"]
+    }
+  },
+  "items": [
+    {
+      "displayName": "Mancomunidad Comarca de Pamplona/Iruñerriko Mankomunitatea",
+      "id": "mancomunidadcomarcadepamplonairunerrikomankomunitatea",
+      "locationSet": {
+        "include": ["es-na.geojson"]
+      },
+      "tags": {
+        "amenity": "taxi",
+        "operator": "Mancomunidad Comarca de Pamplona/Iruñerriko Mankomunitatea",
+        "operator:wikidata": "Q3297794"
+      }
+    }
+]
+}
