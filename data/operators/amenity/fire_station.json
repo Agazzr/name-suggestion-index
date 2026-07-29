@@ -175,6 +175,16 @@
       }
     },
     {
+      "displayName": "Bomberos de Navarra/Nafarroako Suhiltzaileak",
+      "id": "bomberosnavarrasuhiltzaileak",
+      "locationSet": {"include": ["es-na.geojson"]},
+      "tags": {
+        "amenity": "fire_station",
+        "operator": "Bomberos de Navarra/Nafarroako Suhiltzaileak",
+        "operator:wikidata": "Q126378591"
+      }
+    }
+    {
       "displayName": "Brand & Redning Sønderjylland",
       "id": "brandandredningsonderjylland-dc888e",
       "locationSet": {"include": ["dk"]},
